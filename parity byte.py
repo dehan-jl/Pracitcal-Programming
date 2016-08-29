@@ -59,7 +59,6 @@ def getParityByte(bytes, n):
         byte += justParityBit(tbyte, ODD)
     return byte
 
-
 #MAIN
 num = 5
 block = getNumbers(num)
